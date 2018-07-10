@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243DC94320F4A494008E9D3B /* DemoTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC92E20F4A493008E9D3B /* DemoTouchView.swift */; };
+		243DC94420F4A494008E9D3B /* ExpandableTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93020F4A493008E9D3B /* ExpandableTableViewController.storyboard */; };
+		243DC94520F4A494008E9D3B /* ExpandableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC93120F4A493008E9D3B /* ExpandableTableViewController.swift */; };
+		243DC94620F4A494008E9D3B /* ExpandableTableViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93220F4A493008E9D3B /* ExpandableTableViewImages.xcassets */; };
+		243DC94720F4A494008E9D3B /* HorizontalColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC93420F4A493008E9D3B /* HorizontalColorPicker.swift */; };
+		243DC94820F4A494008E9D3B /* HorizontalColorPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93520F4A493008E9D3B /* HorizontalColorPicker.xib */; };
+		243DC94920F4A494008E9D3B /* HorizontalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC93620F4A493008E9D3B /* HorizontalPicker.swift */; };
+		243DC94A20F4A494008E9D3B /* HorizontalPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93720F4A493008E9D3B /* HorizontalPicker.xib */; };
+		243DC94B20F4A494008E9D3B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 243DC93A20F4A493008E9D3B /* SVIndefiniteAnimatedView.m */; };
+		243DC94C20F4A494008E9D3B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 243DC93C20F4A493008E9D3B /* SVProgressAnimatedView.m */; };
+		243DC94D20F4A494008E9D3B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93E20F4A493008E9D3B /* SVProgressHUD.bundle */; };
+		243DC94E20F4A494008E9D3B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 243DC94020F4A493008E9D3B /* SVProgressHUD.m */; };
+		243DC94F20F4A494008E9D3B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 243DC94220F4A493008E9D3B /* SVRadialGradientLayer.m */; };
+		24C7753B20F48292001C0CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7753A20F48292001C0CC8 /* AppDelegate.swift */; };
+		24C7753D20F48292001C0CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7753C20F48292001C0CC8 /* ViewController.swift */; };
+		24C7754020F48292001C0CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C7753E20F48292001C0CC8 /* Main.storyboard */; };
+		24C7754220F48292001C0CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754120F48292001C0CC8 /* Assets.xcassets */; };
+		24C7754520F48292001C0CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */; };
+		24C7754D20F48359001C0CC8 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754C20F48359001C0CC8 /* ArcGIS.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		243DC92E20F4A493008E9D3B /* DemoTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTouchView.swift; sourceTree = "<group>"; };
+		243DC93020F4A493008E9D3B /* ExpandableTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExpandableTableViewController.storyboard; sourceTree = "<group>"; };
+		243DC93120F4A493008E9D3B /* ExpandableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewController.swift; sourceTree = "<group>"; };
+		243DC93220F4A493008E9D3B /* ExpandableTableViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExpandableTableViewImages.xcassets; sourceTree = "<group>"; };
+		243DC93420F4A493008E9D3B /* HorizontalColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalColorPicker.swift; sourceTree = "<group>"; };
+		243DC93520F4A493008E9D3B /* HorizontalColorPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalColorPicker.xib; sourceTree = "<group>"; };
+		243DC93620F4A493008E9D3B /* HorizontalPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalPicker.swift; sourceTree = "<group>"; };
+		243DC93720F4A493008E9D3B /* HorizontalPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalPicker.xib; sourceTree = "<group>"; };
+		243DC93920F4A493008E9D3B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		243DC93A20F4A493008E9D3B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		243DC93B20F4A493008E9D3B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		243DC93C20F4A493008E9D3B /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		243DC93D20F4A493008E9D3B /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		243DC93E20F4A493008E9D3B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		243DC93F20F4A493008E9D3B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		243DC94020F4A493008E9D3B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		243DC94120F4A493008E9D3B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		243DC94220F4A493008E9D3B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		24C7753720F48292001C0CC8 /* ArcGIS Swift Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArcGIS Swift Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C7753A20F48292001C0CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24C7753C20F48292001C0CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24C7753F20F48292001C0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C7754120F48292001C0CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C7754420F48292001C0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24C7754620F48292001C0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C7754C20F48359001C0CC8 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C7753420F48291001C0CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		243DC92C20F4A493008E9D3B /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				243DC92D20F4A493008E9D3B /* DemoTouchView */,
+				243DC92F20F4A493008E9D3B /* ExpandableTableViewController */,
+				243DC93320F4A493008E9D3B /* HorizontalPicker */,
+				243DC93820F4A493008E9D3B /* SVProgressHUD */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		243DC92D20F4A493008E9D3B /* DemoTouchView */ = {
+			isa = PBXGroup;
+			children = (
+				243DC92E20F4A493008E9D3B /* DemoTouchView.swift */,
+			);
+			path = DemoTouchView;
+			sourceTree = "<group>";
+		};
+		243DC92F20F4A493008E9D3B /* ExpandableTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				243DC93020F4A493008E9D3B /* ExpandableTableViewController.storyboard */,
+				243DC93120F4A493008E9D3B /* ExpandableTableViewController.swift */,
+				243DC93220F4A493008E9D3B /* ExpandableTableViewImages.xcassets */,
+			);
+			path = ExpandableTableViewController;
+			sourceTree = "<group>";
+		};
+		243DC93320F4A493008E9D3B /* HorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				243DC93420F4A493008E9D3B /* HorizontalColorPicker.swift */,
+				243DC93520F4A493008E9D3B /* HorizontalColorPicker.xib */,
+				243DC93620F4A493008E9D3B /* HorizontalPicker.swift */,
+				243DC93720F4A493008E9D3B /* HorizontalPicker.xib */,
+			);
+			path = HorizontalPicker;
+			sourceTree = "<group>";
+		};
+		243DC93820F4A493008E9D3B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				243DC93920F4A493008E9D3B /* SVIndefiniteAnimatedView.h */,
+				243DC93A20F4A493008E9D3B /* SVIndefiniteAnimatedView.m */,
+				243DC93B20F4A493008E9D3B /* SVProgressAnimatedView.h */,
+				243DC93C20F4A493008E9D3B /* SVProgressAnimatedView.m */,
+				243DC93D20F4A493008E9D3B /* SVProgressHUD-Prefix.pch */,
+				243DC93E20F4A493008E9D3B /* SVProgressHUD.bundle */,
+				243DC93F20F4A493008E9D3B /* SVProgressHUD.h */,
+				243DC94020F4A493008E9D3B /* SVProgressHUD.m */,
+				243DC94120F4A493008E9D3B /* SVRadialGradientLayer.h */,
+				243DC94220F4A493008E9D3B /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		243DC95020F4A49E008E9D3B /* Shared resources */ = {
+			isa = PBXGroup;
+			children = (
+				243DC92C20F4A493008E9D3B /* Libraries */,
+			);
+			path = "Shared resources";
+			sourceTree = "<group>";
+		};
+		24C7752E20F48291001C0CC8 = {
+			isa = PBXGroup;
+			children = (
+				24C7754C20F48359001C0CC8 /* ArcGIS.bundle */,
+				24C7753920F48292001C0CC8 /* ArcGIS Swift Demo */,
+				24C7753820F48292001C0CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C7753820F48292001C0CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C7753720F48292001C0CC8 /* ArcGIS Swift Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C7753920F48292001C0CC8 /* ArcGIS Swift Demo */ = {
+			isa = PBXGroup;
+			children = (
+				243DC95020F4A49E008E9D3B /* Shared resources */,
+				24C7753A20F48292001C0CC8 /* AppDelegate.swift */,
+				24C7753C20F48292001C0CC8 /* ViewController.swift */,
+				24C7753E20F48292001C0CC8 /* Main.storyboard */,
+				24C7754120F48292001C0CC8 /* Assets.xcassets */,
+				24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */,
+				24C7754620F48292001C0CC8 /* Info.plist */,
+			);
+			path = "ArcGIS Swift Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C7753620F48291001C0CC8 /* ArcGIS Swift Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C7754920F48292001C0CC8 /* Build configuration list for PBXNativeTarget "ArcGIS Swift Demo" */;
+			buildPhases = (
+				24C7753320F48291001C0CC8 /* Sources */,
+				24C7753420F48291001C0CC8 /* Frameworks */,
+				24C7753520F48291001C0CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArcGIS Swift Demo";
+			productName = "ArcGIS Swift Demo";
+			productReference = 24C7753720F48292001C0CC8 /* ArcGIS Swift Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C7752F20F48291001C0CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sawyer3x;
+				TargetAttributes = {
+					24C7753620F48291001C0CC8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24C7753220F48291001C0CC8 /* Build configuration list for PBXProject "ArcGIS Swift Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C7752E20F48291001C0CC8;
+			productRefGroup = 24C7753820F48292001C0CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C7753620F48291001C0CC8 /* ArcGIS Swift Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C7753520F48291001C0CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C7754520F48292001C0CC8 /* LaunchScreen.storyboard in Resources */,
+				243DC94D20F4A494008E9D3B /* SVProgressHUD.bundle in Resources */,
+				24C7754220F48292001C0CC8 /* Assets.xcassets in Resources */,
+				24C7754D20F48359001C0CC8 /* ArcGIS.bundle in Resources */,
+				243DC94420F4A494008E9D3B /* ExpandableTableViewController.storyboard in Resources */,
+				243DC94820F4A494008E9D3B /* HorizontalColorPicker.xib in Resources */,
+				243DC94A20F4A494008E9D3B /* HorizontalPicker.xib in Resources */,
+				24C7754020F48292001C0CC8 /* Main.storyboard in Resources */,
+				243DC94620F4A494008E9D3B /* ExpandableTableViewImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C7753320F48291001C0CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C7753D20F48292001C0CC8 /* ViewController.swift in Sources */,
+				243DC94920F4A494008E9D3B /* HorizontalPicker.swift in Sources */,
+				243DC94520F4A494008E9D3B /* ExpandableTableViewController.swift in Sources */,
+				243DC94720F4A494008E9D3B /* HorizontalColorPicker.swift in Sources */,
+				243DC94320F4A494008E9D3B /* DemoTouchView.swift in Sources */,
+				243DC94E20F4A494008E9D3B /* SVProgressHUD.m in Sources */,
+				243DC94B20F4A494008E9D3B /* SVIndefiniteAnimatedView.m in Sources */,
+				24C7753B20F48292001C0CC8 /* AppDelegate.swift in Sources */,
+				243DC94C20F4A494008E9D3B /* SVProgressAnimatedView.m in Sources */,
+				243DC94F20F4A494008E9D3B /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24C7753E20F48292001C0CC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C7753F20F48292001C0CC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C7754420F48292001C0CC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C7754720F48292001C0CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24C7754820F48292001C0CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C7754A20F48292001C0CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Static",
+				);
+				INFOPLIST_FILE = "ArcGIS Swift Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-OjbC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sawyer.ArcGIS-Swift-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C7754B20F48292001C0CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JUQ8R9527;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/iOS/Frameworks/Static",
+				);
+				INFOPLIST_FILE = "ArcGIS Swift Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-OjbC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sawyer.ArcGIS-Swift-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C7753220F48291001C0CC8 /* Build configuration list for PBXProject "ArcGIS Swift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C7754720F48292001C0CC8 /* Debug */,
+				24C7754820F48292001C0CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C7754920F48292001C0CC8 /* Build configuration list for PBXNativeTarget "ArcGIS Swift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C7754A20F48292001C0CC8 /* Debug */,
+				24C7754B20F48292001C0CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C7752F20F48291001C0CC8 /* Project object */;
+}
