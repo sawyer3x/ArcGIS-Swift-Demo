@@ -108,7 +108,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             return false
         }
     }
-    
+    //////test
     func splitViewController(_ splitViewController: UISplitViewController, separateSecondaryFrom primaryViewController: UIViewController) -> UIViewController? {
         if let navigationController = primaryViewController as? UINavigationController {
             if navigationController.topViewController! is ContentCollectionViewController || navigationController.topViewController is ContentTableViewController {
