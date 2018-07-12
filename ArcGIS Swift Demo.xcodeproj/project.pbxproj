@@ -20,10 +20,21 @@
 		243DC94D20F4A494008E9D3B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93E20F4A493008E9D3B /* SVProgressHUD.bundle */; };
 		243DC94E20F4A494008E9D3B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 243DC94020F4A493008E9D3B /* SVProgressHUD.m */; };
 		243DC94F20F4A494008E9D3B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 243DC94220F4A493008E9D3B /* SVRadialGradientLayer.m */; };
+		243DC95820F58B30008E9D3B /* ContentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC95720F58B30008E9D3B /* ContentCollectionViewController.swift */; };
+		243DC95A20F59283008E9D3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243DC95920F59283008E9D3B /* Images.xcassets */; };
+		243DC95D20F5ABD0008E9D3B /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC95C20F5ABD0008E9D3B /* Node.swift */; };
+		243DC96220F5B0DF008E9D3B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC96120F5B0DF008E9D3B /* CategoryCell.swift */; };
+		243DC96620F5CD8D008E9D3B /* CustomSearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC96420F5CD8D008E9D3B /* CustomSearchHeaderView.swift */; };
+		243DC96720F5CD8D008E9D3B /* CustomSearchHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243DC96520F5CD8D008E9D3B /* CustomSearchHeaderView.xib */; };
+		243DC96920F5D38F008E9D3B /* SuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243DC96820F5D38F008E9D3B /* SuggestionTableViewCell.xib */; };
+		243DC96B20F5F89F008E9D3B /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC96A20F5F89F008E9D3B /* SearchEngine.swift */; };
+		243DC96F20F6DE05008E9D3B /* ContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC96E20F6DE05008E9D3B /* ContentTableViewController.swift */; };
+		24BEC3E920F6E295003D72E0 /* DownloadProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEC3E820F6E294003D72E0 /* DownloadProgressView.swift */; };
+		24BEC3EB20F6E29B003D72E0 /* DownloadProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BEC3EA20F6E29B003D72E0 /* DownloadProgressView.xib */; };
+		24BEC3ED20F6EDBB003D72E0 /* ContentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEC3EC20F6EDBB003D72E0 /* ContentTableCell.swift */; };
+		24BEC3F020F6F62D003D72E0 /* SourceCodeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEC3EF20F6F62D003D72E0 /* SourceCodeBarButtonItem.swift */; };
 		24C7753B20F48292001C0CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7753A20F48292001C0CC8 /* AppDelegate.swift */; };
-		24C7753D20F48292001C0CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7753C20F48292001C0CC8 /* ViewController.swift */; };
 		24C7754020F48292001C0CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C7753E20F48292001C0CC8 /* Main.storyboard */; };
-		24C7754220F48292001C0CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754120F48292001C0CC8 /* Assets.xcassets */; };
 		24C7754520F48292001C0CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */; };
 		24C7754D20F48359001C0CC8 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754C20F48359001C0CC8 /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
@@ -47,11 +58,23 @@
 		243DC94020F4A493008E9D3B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		243DC94120F4A493008E9D3B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		243DC94220F4A493008E9D3B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		243DC95220F589C6008E9D3B /* ArcGIS Swift Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArcGIS Swift Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		243DC95720F58B30008E9D3B /* ContentCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentCollectionViewController.swift; path = "ArcGIS Swift Demo/Content Display Logic/Controller/ContentCollectionViewController.swift"; sourceTree = SOURCE_ROOT; };
+		243DC95920F59283008E9D3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		243DC95C20F5ABD0008E9D3B /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		243DC96120F5B0DF008E9D3B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		243DC96420F5CD8D008E9D3B /* CustomSearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchHeaderView.swift; sourceTree = "<group>"; };
+		243DC96520F5CD8D008E9D3B /* CustomSearchHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSearchHeaderView.xib; sourceTree = "<group>"; };
+		243DC96820F5D38F008E9D3B /* SuggestionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		243DC96A20F5F89F008E9D3B /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		243DC96E20F6DE05008E9D3B /* ContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentTableViewController.swift; path = "ArcGIS Swift Demo/Content Display Logic/Controller/ContentTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		24BEC3E820F6E294003D72E0 /* DownloadProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProgressView.swift; sourceTree = "<group>"; };
+		24BEC3EA20F6E29B003D72E0 /* DownloadProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadProgressView.xib; sourceTree = "<group>"; };
+		24BEC3EC20F6EDBB003D72E0 /* ContentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableCell.swift; sourceTree = "<group>"; };
+		24BEC3EF20F6F62D003D72E0 /* SourceCodeBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeBarButtonItem.swift; sourceTree = "<group>"; };
 		24C7753720F48292001C0CC8 /* ArcGIS Swift Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArcGIS Swift Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C7753A20F48292001C0CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24C7753C20F48292001C0CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24C7753F20F48292001C0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24C7754120F48292001C0CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C7754420F48292001C0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C7754620F48292001C0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C7754C20F48359001C0CC8 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
@@ -133,6 +156,66 @@
 			path = "Shared resources";
 			sourceTree = "<group>";
 		};
+		243DC95320F58AB0008E9D3B /* Content Display Logic */ = {
+			isa = PBXGroup;
+			children = (
+				24BEC3EE20F6F607003D72E0 /* Custom BarButtonItem */,
+				243DC96320F5CD4A008E9D3B /* Views */,
+				243DC95E20F5B068008E9D3B /* Cells */,
+				243DC95B20F5ABC0008E9D3B /* Model */,
+				243DC95620F58AFE008E9D3B /* Controller */,
+			);
+			path = "Content Display Logic";
+			sourceTree = "<group>";
+		};
+		243DC95620F58AFE008E9D3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				243DC95720F58B30008E9D3B /* ContentCollectionViewController.swift */,
+				243DC96E20F6DE05008E9D3B /* ContentTableViewController.swift */,
+			);
+			name = Controller;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		243DC95B20F5ABC0008E9D3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				243DC95C20F5ABD0008E9D3B /* Node.swift */,
+				243DC96A20F5F89F008E9D3B /* SearchEngine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243DC95E20F5B068008E9D3B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				243DC96820F5D38F008E9D3B /* SuggestionTableViewCell.xib */,
+				243DC96120F5B0DF008E9D3B /* CategoryCell.swift */,
+				24BEC3EC20F6EDBB003D72E0 /* ContentTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		243DC96320F5CD4A008E9D3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24BEC3E820F6E294003D72E0 /* DownloadProgressView.swift */,
+				24BEC3EA20F6E29B003D72E0 /* DownloadProgressView.xib */,
+				243DC96420F5CD8D008E9D3B /* CustomSearchHeaderView.swift */,
+				243DC96520F5CD8D008E9D3B /* CustomSearchHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24BEC3EE20F6F607003D72E0 /* Custom BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				24BEC3EF20F6F62D003D72E0 /* SourceCodeBarButtonItem.swift */,
+			);
+			path = "Custom BarButtonItem";
+			sourceTree = "<group>";
+		};
 		24C7752E20F48291001C0CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -153,11 +236,12 @@
 		24C7753920F48292001C0CC8 /* ArcGIS Swift Demo */ = {
 			isa = PBXGroup;
 			children = (
+				243DC95320F58AB0008E9D3B /* Content Display Logic */,
 				243DC95020F4A49E008E9D3B /* Shared resources */,
 				24C7753A20F48292001C0CC8 /* AppDelegate.swift */,
-				24C7753C20F48292001C0CC8 /* ViewController.swift */,
+				243DC95220F589C6008E9D3B /* ArcGIS Swift Demo-Bridging-Header.h */,
 				24C7753E20F48292001C0CC8 /* Main.storyboard */,
-				24C7754120F48292001C0CC8 /* Assets.xcassets */,
+				243DC95920F59283008E9D3B /* Images.xcassets */,
 				24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */,
 				24C7754620F48292001C0CC8 /* Info.plist */,
 			);
@@ -224,13 +308,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C7754520F48292001C0CC8 /* LaunchScreen.storyboard in Resources */,
+				243DC95A20F59283008E9D3B /* Images.xcassets in Resources */,
 				243DC94D20F4A494008E9D3B /* SVProgressHUD.bundle in Resources */,
-				24C7754220F48292001C0CC8 /* Assets.xcassets in Resources */,
 				24C7754D20F48359001C0CC8 /* ArcGIS.bundle in Resources */,
 				243DC94420F4A494008E9D3B /* ExpandableTableViewController.storyboard in Resources */,
+				24BEC3EB20F6E29B003D72E0 /* DownloadProgressView.xib in Resources */,
+				243DC96920F5D38F008E9D3B /* SuggestionTableViewCell.xib in Resources */,
 				243DC94820F4A494008E9D3B /* HorizontalColorPicker.xib in Resources */,
 				243DC94A20F4A494008E9D3B /* HorizontalPicker.xib in Resources */,
 				24C7754020F48292001C0CC8 /* Main.storyboard in Resources */,
+				243DC96720F5CD8D008E9D3B /* CustomSearchHeaderView.xib in Resources */,
 				243DC94620F4A494008E9D3B /* ExpandableTableViewImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,16 +329,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C7753D20F48292001C0CC8 /* ViewController.swift in Sources */,
 				243DC94920F4A494008E9D3B /* HorizontalPicker.swift in Sources */,
 				243DC94520F4A494008E9D3B /* ExpandableTableViewController.swift in Sources */,
 				243DC94720F4A494008E9D3B /* HorizontalColorPicker.swift in Sources */,
+				243DC96B20F5F89F008E9D3B /* SearchEngine.swift in Sources */,
+				243DC95D20F5ABD0008E9D3B /* Node.swift in Sources */,
 				243DC94320F4A494008E9D3B /* DemoTouchView.swift in Sources */,
+				243DC96620F5CD8D008E9D3B /* CustomSearchHeaderView.swift in Sources */,
 				243DC94E20F4A494008E9D3B /* SVProgressHUD.m in Sources */,
+				24BEC3F020F6F62D003D72E0 /* SourceCodeBarButtonItem.swift in Sources */,
 				243DC94B20F4A494008E9D3B /* SVIndefiniteAnimatedView.m in Sources */,
 				24C7753B20F48292001C0CC8 /* AppDelegate.swift in Sources */,
 				243DC94C20F4A494008E9D3B /* SVProgressAnimatedView.m in Sources */,
+				243DC95820F58B30008E9D3B /* ContentCollectionViewController.swift in Sources */,
 				243DC94F20F4A494008E9D3B /* SVRadialGradientLayer.m in Sources */,
+				24BEC3ED20F6EDBB003D72E0 /* ContentTableCell.swift in Sources */,
+				24BEC3E920F6E295003D72E0 /* DownloadProgressView.swift in Sources */,
+				243DC96220F5B0DF008E9D3B /* CategoryCell.swift in Sources */,
+				243DC96F20F6DE05008E9D3B /* ContentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sawyer.ArcGIS-Swift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArcGIS Swift Demo/ArcGIS Swift Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -433,6 +529,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sawyer.ArcGIS-Swift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArcGIS Swift Demo/ArcGIS Swift Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

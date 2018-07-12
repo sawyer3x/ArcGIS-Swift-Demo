@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomSearchHeaderView" customModule="ArcGIS_Swift_Demo" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="zOP-iX-lWp" id="19f-UK-rTX"/>
+                <outlet property="suggestionsTableView" destination="dA8-3b-f9v" id="GOa-LL-sRF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kUZ-Co-dMC">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="zOP-iX-lWp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="dYB-7y-j6k"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="34" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dA8-3b-f9v" userLabel="Suggestions Table View">
+                    <rect key="frame" x="0.0" y="44" width="375" height="152"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="152" id="eAJ-lD-pPw"/>
+                    </constraints>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dA8-3b-f9v" firstAttribute="top" secondItem="zOP-iX-lWp" secondAttribute="bottom" id="HMx-za-FTA"/>
+                <constraint firstItem="zOP-iX-lWp" firstAttribute="leading" secondItem="kUZ-Co-dMC" secondAttribute="leading" id="K4b-AO-8Kd"/>
+                <constraint firstAttribute="trailing" secondItem="zOP-iX-lWp" secondAttribute="trailing" id="OwJ-Gv-YT6"/>
+                <constraint firstItem="Pg7-2e-H5a" firstAttribute="trailing" secondItem="dA8-3b-f9v" secondAttribute="trailing" id="gec-Dd-bwC"/>
+                <constraint firstItem="dA8-3b-f9v" firstAttribute="leading" secondItem="Pg7-2e-H5a" secondAttribute="leading" id="oAp-qe-tOQ"/>
+                <constraint firstItem="zOP-iX-lWp" firstAttribute="top" secondItem="kUZ-Co-dMC" secondAttribute="top" id="sg8-cg-0JJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Pg7-2e-H5a"/>
+            <point key="canvasLocation" x="-90" y="104"/>
+        </view>
+    </objects>
+</document>
