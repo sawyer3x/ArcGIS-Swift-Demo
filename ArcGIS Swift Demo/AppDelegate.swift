@@ -109,18 +109,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         }
     }
 
-//    func splitViewController(_ splitViewController: UISplitViewController, separateSecondaryFrom primaryViewController: UIViewController) -> UIViewController? {
-//        if let navigationController = primaryViewController as? UINavigationController {
-//            if navigationController.topViewController! is ContentCollectionViewController || navigationController.topViewController is ContentTableViewController {
-//                
-//                let controller = splitViewController.storyboard!.instantiateViewController(withIdentifier: "DetailNavigationController") as! UINavigationController
-//                controller.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
-//                controller.topViewController!.navigationItem.leftItemsSupplementBackButton = true
-//                return controller
-//            }
-//        }
-//        return nil
-//    }
+    func splitViewController(_ splitViewController: UISplitViewController, separateSecondaryFrom primaryViewController: UIViewController) -> UIViewController? {
+        if let navigationController = primaryViewController as? UINavigationController {
+            if navigationController.topViewController! is ContentCollectionViewController || navigationController.topViewController is ContentTableViewController {
+                
+                let controller = splitViewController.storyboard!.instantiateViewController(withIdentifier: "DetailNavigationController") as! UINavigationController
+                controller.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+                controller.topViewController!.navigationItem.leftItemsSupplementBackButton = true
+                
+                return controller
+            }
+        }
+        return nil
+    }
+    
 }
 
 extension UIColor {

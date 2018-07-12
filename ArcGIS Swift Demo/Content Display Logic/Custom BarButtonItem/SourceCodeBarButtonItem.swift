@@ -29,7 +29,7 @@ class SourceCodeBarButtonItem: UIBarButtonItem {
     @objc func showSegmentedVC() { //321为何要加@objc 不加会怎么样
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let controller = storyboard.instantiateViewController(withIdentifier: "SegmentedViewController") as! SegmentedViewController
-        controller.filenames = filenames
+        controller.filenames = fileNames
         controller.folderName = self.folderName
         self.navController?.show(controller, sender: self)
     }

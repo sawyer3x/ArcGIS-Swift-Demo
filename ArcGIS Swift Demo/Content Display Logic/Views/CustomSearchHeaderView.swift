@@ -109,12 +109,60 @@ class CustomSearchHeaderView: UICollectionReusableView, UITableViewDataSource, U
         self.delegate?.customSearchHeaderView(self, didFindSamples: sampleNames)
     }
     
+    // MARK: - Table view data source
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        return self.suggestions?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        cell.textLabel?.text = suggestions[indexPath.row]
+        cell.backgroundColor = .clear
         
+        return cell
+    }
+    
+    //MARK: - Table view delegate
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.searchBar.text = self.suggestions[indexPath.row]
+        self.searchForString(self.searchBar.text!)
+    }
+    
+    //MARK: - UISearchBarDelegate
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.searchForString(self.searchBar.text!)
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if let suggestions = SearchEngine.sharedInstance().suggestionsForString(searchText), suggestions.count > 0 {
+            self.suggestions = suggestions
+            //call delegate
+            self.showSuggestionsTable()
+        } else {
+            self.hideSuggestionsTable()
+        }
+    }
+    
+    func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
+        searchBar.setShowsCancelButton(true, animated: true)
+        return true
+    }
+    
+    func searchBarShouldEndEditing(_ searchBar: UISearchBar) -> Bool {
+        searchBar.setShowsCancelButton(false, animated: true)
+        return true
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        self.hideSuggestionsTable()
     }
     
 }
