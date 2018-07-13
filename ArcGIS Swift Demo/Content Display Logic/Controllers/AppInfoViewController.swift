@@ -10,26 +10,26 @@ import UIKit
 
 class AppInfoViewController: UIViewController {
 
+    @IBOutlet var appNameLabel:UILabel!
+    @IBOutlet var appVersionLabel:UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String
+        let versionNumber = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+        let buildNumber = Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as? String
+        
+        self.appNameLabel.text = appName
+        self.appVersionLabel.text = "Built with ArcGIS Runtime SDK for iOS \(versionNumber!) (\(buildNumber!))"
+        
+        self.preferredContentSize = CGSize(width: 350, height: 350)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: - Actions
+    
+    @IBAction func closeAction() {
+        self.dismiss(animated: true, completion: nil)
     }
-    */
 
 }

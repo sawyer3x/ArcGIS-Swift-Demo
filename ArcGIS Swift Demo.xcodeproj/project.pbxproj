@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2437324520F8289800DA3517 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437324420F8289800DA3517 /* URL.swift */; };
+		2437324720F831D300DA3517 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2437324620F831D200DA3517 /* Settings.bundle */; };
+		2437324D20F831DE00DA3517 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 2437324920F831DE00DA3517 /* default.css */; };
+		2437324E20F831DE00DA3517 /* highlight.pack.js in Resources */ = {isa = PBXBuildFile; fileRef = 2437324A20F831DE00DA3517 /* highlight.pack.js */; };
+		2437324F20F831DE00DA3517 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2437324B20F831DE00DA3517 /* style.css */; };
+		2437325020F831DE00DA3517 /* xcode.css in Resources */ = {isa = PBXBuildFile; fileRef = 2437324C20F831DE00DA3517 /* xcode.css */; };
+		2437325320F831FD00DA3517 /* Camera Shutter.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2437325220F831FD00DA3517 /* Camera Shutter.caf */; };
+		2437325720F8513400DA3517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437325620F8513400DA3517 /* Main.storyboard */; };
 		243DC94320F4A494008E9D3B /* DemoTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC92E20F4A493008E9D3B /* DemoTouchView.swift */; };
 		243DC94420F4A494008E9D3B /* ExpandableTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243DC93020F4A493008E9D3B /* ExpandableTableViewController.storyboard */; };
 		243DC94520F4A494008E9D3B /* ExpandableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243DC93120F4A493008E9D3B /* ExpandableTableViewController.swift */; };
@@ -40,12 +48,19 @@
 		24BEC40320F728DD003D72E0 /* SourceCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEC40220F728DD003D72E0 /* SourceCodeViewController.swift */; };
 		24BEC40520F75495003D72E0 /* ContentPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24BEC40420F75495003D72E0 /* ContentPList.plist */; };
 		24C7753B20F48292001C0CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7753A20F48292001C0CC8 /* AppDelegate.swift */; };
-		24C7754020F48292001C0CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C7753E20F48292001C0CC8 /* Main.storyboard */; };
 		24C7754520F48292001C0CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */; };
 		24C7754D20F48359001C0CC8 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24C7754C20F48359001C0CC8 /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2437324420F8289800DA3517 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		2437324620F831D200DA3517 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2437324920F831DE00DA3517 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		2437324A20F831DE00DA3517 /* highlight.pack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
+		2437324B20F831DE00DA3517 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		2437324C20F831DE00DA3517 /* xcode.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xcode.css; sourceTree = "<group>"; };
+		2437325220F831FD00DA3517 /* Camera Shutter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Camera Shutter.caf"; sourceTree = "<group>"; };
+		2437325620F8513400DA3517 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		243DC92E20F4A493008E9D3B /* DemoTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTouchView.swift; sourceTree = "<group>"; };
 		243DC93020F4A493008E9D3B /* ExpandableTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExpandableTableViewController.storyboard; sourceTree = "<group>"; };
 		243DC93120F4A493008E9D3B /* ExpandableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +101,6 @@
 		24BEC40420F75495003D72E0 /* ContentPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContentPList.plist; sourceTree = "<group>"; };
 		24C7753720F48292001C0CC8 /* ArcGIS Swift Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArcGIS Swift Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C7753A20F48292001C0CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24C7753F20F48292001C0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24C7754420F48292001C0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C7754620F48292001C0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C7754C20F48359001C0CC8 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
@@ -103,6 +117,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2437324220F8286700DA3517 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2437324320F8288900DA3517 /* Foundation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2437324320F8288900DA3517 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2437324420F8289800DA3517 /* URL.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		2437324820F831DE00DA3517 /* Js */ = {
+			isa = PBXGroup;
+			children = (
+				2437324920F831DE00DA3517 /* default.css */,
+				2437324A20F831DE00DA3517 /* highlight.pack.js */,
+				2437324B20F831DE00DA3517 /* style.css */,
+				2437324C20F831DE00DA3517 /* xcode.css */,
+			);
+			path = Js;
+			sourceTree = "<group>";
+		};
+		2437325120F831FD00DA3517 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				2437325220F831FD00DA3517 /* Camera Shutter.caf */,
+			);
+			path = "Audio Files";
+			sourceTree = "<group>";
+		};
 		243DC92C20F4A493008E9D3B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +220,10 @@
 		243DC95320F58AB0008E9D3B /* Content Display Logic */ = {
 			isa = PBXGroup;
 			children = (
+				2437325120F831FD00DA3517 /* Audio Files */,
+				24BEC3F520F72485003D72E0 /* Controllers */,
+				2437324820F831DE00DA3517 /* Js */,
+				2437324620F831D200DA3517 /* Settings.bundle */,
 				24BEC40420F75495003D72E0 /* ContentPList.plist */,
 				24BEC3EE20F6F607003D72E0 /* Custom BarButtonItem */,
 				243DC96320F5CD4A008E9D3B /* Views */,
@@ -229,8 +282,7 @@
 				24BEC40020F724AE003D72E0 /* AppInfoViewController.swift */,
 				24BEC40220F728DD003D72E0 /* SourceCodeViewController.swift */,
 			);
-			name = Controllers;
-			path = "Content Display Logic/Controllers";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		24C7752E20F48291001C0CC8 = {
@@ -253,12 +305,12 @@
 		24C7753920F48292001C0CC8 /* ArcGIS Swift Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2437324220F8286700DA3517 /* Extensions */,
 				243DC95320F58AB0008E9D3B /* Content Display Logic */,
-				24BEC3F520F72485003D72E0 /* Controllers */,
 				243DC95020F4A49E008E9D3B /* Shared resources */,
 				24C7753A20F48292001C0CC8 /* AppDelegate.swift */,
 				243DC95220F589C6008E9D3B /* ArcGIS Swift Demo-Bridging-Header.h */,
-				24C7753E20F48292001C0CC8 /* Main.storyboard */,
+				2437325620F8513400DA3517 /* Main.storyboard */,
 				243DC95920F59283008E9D3B /* Images.xcassets */,
 				24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */,
 				24C7754620F48292001C0CC8 /* Info.plist */,
@@ -326,18 +378,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C7754520F48292001C0CC8 /* LaunchScreen.storyboard in Resources */,
+				2437324E20F831DE00DA3517 /* highlight.pack.js in Resources */,
 				243DC95A20F59283008E9D3B /* Images.xcassets in Resources */,
 				243DC94D20F4A494008E9D3B /* SVProgressHUD.bundle in Resources */,
 				24C7754D20F48359001C0CC8 /* ArcGIS.bundle in Resources */,
 				243DC94420F4A494008E9D3B /* ExpandableTableViewController.storyboard in Resources */,
 				24BEC3EB20F6E29B003D72E0 /* DownloadProgressView.xib in Resources */,
+				2437324720F831D300DA3517 /* Settings.bundle in Resources */,
 				243DC96920F5D38F008E9D3B /* SuggestionTableViewCell.xib in Resources */,
 				243DC94820F4A494008E9D3B /* HorizontalColorPicker.xib in Resources */,
 				243DC94A20F4A494008E9D3B /* HorizontalPicker.xib in Resources */,
+				2437325320F831FD00DA3517 /* Camera Shutter.caf in Resources */,
+				2437325020F831DE00DA3517 /* xcode.css in Resources */,
 				24BEC40520F75495003D72E0 /* ContentPList.plist in Resources */,
-				24C7754020F48292001C0CC8 /* Main.storyboard in Resources */,
+				2437324F20F831DE00DA3517 /* style.css in Resources */,
 				243DC96720F5CD8D008E9D3B /* CustomSearchHeaderView.xib in Resources */,
 				243DC94620F4A494008E9D3B /* ExpandableTableViewImages.xcassets in Resources */,
+				2437325720F8513400DA3517 /* Main.storyboard in Resources */,
+				2437324D20F831DE00DA3517 /* default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,20 +429,13 @@
 				243DC96220F5B0DF008E9D3B /* CategoryCell.swift in Sources */,
 				24BEC3FC20F72485003D72E0 /* SampleInfoViewController.swift in Sources */,
 				24BEC3FF20F7249D003D72E0 /* ListViewController.swift in Sources */,
+				2437324520F8289800DA3517 /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		24C7753E20F48292001C0CC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24C7753F20F48292001C0CC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24C7754320F48292001C0CC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

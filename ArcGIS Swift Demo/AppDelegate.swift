@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+        // Override point for customization after application launch.
         let splitViewController = self.window?.rootViewController as! UISplitViewController
         splitViewController.presentsWithGesture = false
         splitViewController.preferredDisplayMode = UISplitViewControllerDisplayMode.allVisible
@@ -59,6 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        self.setTouchPref()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

@@ -116,7 +116,6 @@ class ContentTableViewController: UITableViewController, CustomSearchHeaderViewD
         
         cell.infoButton.addTarget(self, action: #selector(ContentTableViewController.expandCell(_:)), for: UIControlEvents.touchUpInside)
         cell.infoButton.tag = indexPath.row
-        
         cell.backgroundColor = .clear
         
         return cell
@@ -133,10 +132,10 @@ class ContentTableViewController: UITableViewController, CustomSearchHeaderViewD
             self.bundleResourceRequest = NSBundleResourceRequest(tags: Set(node.dependency))
             
             //conditionally begin accessing to know if we need to show download progress view or not
-            self.bundleResourceRequest.conditionallyBeginAccessingResources { [weak self] (isResourceAvailabe: Bool) in
+            self.bundleResourceRequest.conditionallyBeginAccessingResources { [weak self] (isResourceAvailable: Bool) in
                 DispatchQueue.main.sync {
                     //if resource is already available then simply show the sample
-                    if isResourceAvailabe {
+                    if isResourceAvailable {
                         self?.showSample(indexPath: indexPath, node: node)
                     }
                     //else download the resource
@@ -177,8 +176,7 @@ class ContentTableViewController: UITableViewController, CustomSearchHeaderViewD
                 
                 if let error = error {
                     SVProgressHUD.showError(withStatus: "Failed to download raster resource :: \(error.localizedDescription)")
-                }
-                else {
+                } else {
                     
                     if !strongSelf.bundleResourceRequest.progress.isCancelled {
                         
@@ -247,11 +245,11 @@ class ContentTableViewController: UITableViewController, CustomSearchHeaderViewD
     //MARK: - CustomSearchHeaderViewDelegate
 
     func customSearchHeaderViewWillShowSuggestions(_ customSearchHeaderView: CustomSearchHeaderView) {
-        var headViewFrame = self.headerView.frame
-        headViewFrame.size.height = customSearchHeaderView.expandedViewHeight
+        var headerViewFrame = self.headerView.frame
+        headerViewFrame.size.height = customSearchHeaderView.expandedViewHeight
         
         UIView.animate(withDuration: 0.3, delay: 0, options: UIViewAnimationOptions(), animations: { () -> Void in
-            self.headerView.frame = headViewFrame
+            self.headerView.frame = headerViewFrame
             self.tableView.tableHeaderView = self.headerView
         }, completion: nil)
     }

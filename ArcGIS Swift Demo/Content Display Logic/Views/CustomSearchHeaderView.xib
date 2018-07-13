@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomSearchHeaderView" customModule="ArcGIS_Swift_Demo" customModuleProvider="target">
             <connections>
-                <outlet property="searchBar" destination="zOP-iX-lWp" id="19f-UK-rTX"/>
+                <outlet property="searchBar" destination="zOP-iX-lWp" id="yNc-EP-IcT"/>
                 <outlet property="suggestionsTableView" destination="dA8-3b-f9v" id="GOa-LL-sRF"/>
             </connections>
         </placeholder>
@@ -27,6 +27,9 @@
                         <constraint firstAttribute="height" constant="44" id="dYB-7y-j6k"/>
                     </constraints>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="eFj-9q-LWu"/>
+                    </connections>
                 </searchBar>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="34" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dA8-3b-f9v" userLabel="Suggestions Table View">
                     <rect key="frame" x="0.0" y="44" width="375" height="152"/>
@@ -34,6 +37,10 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="152" id="eAJ-lD-pPw"/>
                     </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="am9-FK-2rY"/>
+                        <outlet property="delegate" destination="-1" id="dq8-LW-BlA"/>
+                    </connections>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

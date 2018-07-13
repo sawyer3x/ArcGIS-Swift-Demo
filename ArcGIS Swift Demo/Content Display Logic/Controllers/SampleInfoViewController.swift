@@ -23,7 +23,7 @@ class SampleInfoViewController: UIViewController {
         }
     }
 
-    func fetchFileContent(for folderName:String) { //321读取文件了解一下
+    func fetchFileContent(for folderName: String) { //321读取文件了解一下
         if let path = Bundle.main.path(forResource: "README", ofType: "md", inDirectory: folderName) {
             //read the content of the file
             if let content = try? String(contentsOfFile: path, encoding: String.Encoding.utf8) {
@@ -37,7 +37,7 @@ class SampleInfoViewController: UIViewController {
         }
     }
     
-    func displayHTML(_ readmeContent:String) {
+    func displayHTML(_ readmeContent: String) {
         let cssPath = Bundle.main.path(forResource: "style", ofType: "css") ?? ""
         let string = "<!doctype html>" +
             "<html>" +
